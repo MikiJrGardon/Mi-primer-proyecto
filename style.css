@@ -1,11 +1,73 @@
+/* General */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px 0;
+  object-fit: cover; /* Asegura que la imagen se vea bien dentro del círculo */
 }
 
 h1 {
-    color: #007BFF;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.link {
+  display: block;
+  background-color: skyblue;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px; /* Bordes redondeados */
+  margin: 10px 0;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.link:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Efecto de agrandar ligeramente al hacer hover */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #0056b3;
 }
